@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ClipboardHelath Amazon Assignment Runner file" duration-ms="40590" started-at="2022-06-21T17:56:16 IST" finished-at="2022-06-21T17:56:57 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazon.runner.MyRunner@335eadca]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumber Runner" duration-ms="40590" started-at="2022-06-21T17:56:16 IST" finished-at="2022-06-21T17:56:57 IST">
+      <class name="amazon.runner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:amazon.runner.MyRunner@335eadca]" name="setUpClass" is-config="true" duration-ms="1434" started-at="2022-06-21T17:56:16 IST" finished-at="2022-06-21T17:56:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazon.runner.MyRunner@335eadca]" name="runScenario" duration-ms="38897" started-at="2022-06-21T17:56:18 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-21T17:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Buy a second highest priced  TV from amzon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Department section]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Application is not launched ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Application is not launched 
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at amazon.managers.WebDriverManager.logFailure(WebDriverManager.java:254)
+at amazon.managers.WebDriverManager.navigate(WebDriverManager.java:99)
+at pages.AmazonHome_Page.launchBrowser(AmazonHome_Page.java:18)
+at steps.BuyTv.i_want_to_lunch_url_website_in_browser_browser(BuyTv.java:33)
+at ✽.I want to lunch <url> website in <browser> browser(file:///C:/Users/spata/eclipse-workspace/Manoj_Assignment/src/test/resources/amazon.feature:42)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:amazon.runner.MyRunner@335eadca]" name="runScenario" duration-ms="38895" started-at="2022-06-21T17:56:18 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-21T17:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Buy a second highest priced  TV from amzon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify Department section]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Application is not launched ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Application is not launched 
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at amazon.managers.WebDriverManager.logFailure(WebDriverManager.java:254)
+at amazon.managers.WebDriverManager.navigate(WebDriverManager.java:99)
+at pages.AmazonHome_Page.launchBrowser(AmazonHome_Page.java:18)
+at steps.BuyTv.i_want_to_lunch_url_website_in_browser_browser(BuyTv.java:33)
+at ✽.I want to lunch <url> website in <browser> browser(file:///C:/Users/spata/eclipse-workspace/Manoj_Assignment/src/test/resources/amazon.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:amazon.runner.MyRunner@335eadca]" name="tearDownClass" is-config="true" duration-ms="149" started-at="2022-06-21T17:56:57 IST" finished-at="2022-06-21T17:56:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- amazon.runner.MyRunner -->
+    </test> <!-- Cucumber Runner -->
+  </suite> <!-- ClipboardHelath Amazon Assignment Runner file -->
+</testng-results>

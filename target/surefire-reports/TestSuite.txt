@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 42.577 s <<< FAILURE! - in TestSuite
+amazon.runner.MyRunner.runScenario  Time elapsed: 38.932 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Application is not launched 
+
+amazon.runner.MyRunner.runScenario  Time elapsed: 38.934 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Application is not launched 
+

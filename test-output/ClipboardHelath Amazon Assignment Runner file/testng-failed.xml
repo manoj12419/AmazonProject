@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ClipboardHelath Amazon Assignment Runner file]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Cucumber Runner(failed)">
+    <classes>
+      <class name="amazon.runner.MyRunner">
+        <methods>
+          <include name="runScenario" invocation-numbers="1 0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- amazon.runner.MyRunner -->
+    </classes>
+  </test> <!-- Cucumber Runner(failed) -->
+</suite> <!-- Failed suite [ClipboardHelath Amazon Assignment Runner file] -->
